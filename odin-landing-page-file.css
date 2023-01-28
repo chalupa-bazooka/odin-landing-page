@@ -1,0 +1,18 @@
+#header {
+    height: 50px;
+    color:white;
+    font-family: Roboto;
+    background-color: #1D2837;
+    display: flex;
+    align-items: center;
+}
+
+#header-logo {
+    justify-self: flex-start;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#header-link-1 #header-link-2 #header-link-3 {
+    align-self: flex-end;
+}
