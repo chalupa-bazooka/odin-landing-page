@@ -1,18 +1,32 @@
-#header {
-    height: 50px;
-    color:white;
-    font-family: Roboto;
-    background-color: #1D2837;
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', monospace;
+}
+
+.container {
     display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #800020;
+    padding: 20px 0px 20px 100px; /* from top clockwise  */
     align-items: center;
 }
 
-#header-logo {
-    justify-self: flex-start;
-    font-weight: bold;
-    margin: 10px;
+.header-logo {
+    width: 84px;
+    margin-right: auto;
+    font-size: 30px;   
 }
 
-#header-link-1 #header-link-2 #header-link-3 {
-    align-self: flex-end;
+.header-link {
+    font-size: 18px;
+    padding: 10px;
 }
